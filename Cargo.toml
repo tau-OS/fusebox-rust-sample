@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-fusebox = { version = "1.0.0", features = ["gtk_v4_6"], path = "../rust/fusebox" }
+fusebox = { git = "https://github.com/tau-OS/rust.git", version = "1.0.0" }
 glib = { git = "https://github.com/gtk-rs/gtk-rs-core", version = "0.17.0" }
 gtk4 = { git = "https://github.com/gtk-rs/gtk4-rs", version = "0.6", features = ["v4_6"] }
 libc = "0.2.139"
